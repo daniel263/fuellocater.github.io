@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../images/computer-desk-electronics-indoors-374074.jpg),no-repeat;
+    background-size: cover;
+    font-family: "EXO", sans-serif;
+
+}
+.sign-box{
+    width:320px;
+    height:420px ;
+    background:#102e4e;
+    opacity: .9;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 15px;
+}
+.avatar{
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 50px);
+    top: 5%;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20PX;
+    text-align: center;
+    font-size: 22px;
+}
+.sign-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.sign-box input{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.sign-box input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+.sign-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #8a0505;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.sign-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: #066b1f;
+}
+.sign-box a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color:darkgray ;
+}
+.sign-box a:hover{
+    color:#066b1f ;
+}

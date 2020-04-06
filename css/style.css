@@ -1,0 +1,224 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "EXO", sans-serif;
+    font-weight:400 ;
+    line-height: 1.8em;
+    color: #cecedd;
+}
+.menu ul{
+    list-style: none;
+    float: right;
+    margin-right:20px;
+}
+.menu ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+.menu ul li a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius:3px;
+}
+a.active, a:hover{
+background:#cecedd;
+transition:5s;
+
+}
+.menu .logo img{
+    margin-right:450px;
+}
+
+.checkbtn{
+   font-size:30px;
+   color:white;
+   float:right;
+   line-height:80px ;
+   margin-right: 40px;
+   cursor: pointer;
+   display: none;
+}
+#check{
+    display: none;
+}
+/*@media(max-width:952px){
+    .menu .logo img{
+        size:30px ;
+        padding-left:50px;
+
+    }
+    .menu ul li a{
+        font-size:16px;
+    }
+}
+@media(max-width:856px){
+    .checkbtn{
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background:#111;
+        top:80px;
+        left:-100%;
+        text-align: center;
+        transition: all .3s;
+    }
+    .menu ul li {
+        display: block;
+        margin:50px 0;
+        line-height: 30px;
+        
+    }
+    .menu ul li a{
+        font-size: 20px;
+        
+    }
+    a:hover, a.active{
+        background:none;
+        color:rgb(16, 10, 70);
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+*/
+.pic1, .pic2, .pic3{
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.pic1{
+    background-image: url('../images/an-empty-gas-station-3602009.jpg');
+    min-height:100%;
+}
+.pic2{
+    background-image: url('../images/car-refill-transportation-gas-9796.jpg');
+    min-height:400px;
+}
+.pic3{
+    background-image: url('../images/selective-focus-photography-of-fuel-station-1381806.jpg');
+    min-height: 400px;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light{
+    background-color:#f4f4f4 ;
+    color:#323233;
+}
+.section-dark{
+    background-color:#102e4e ;
+    color:#ddd;
+
+}
+.section-dark-1{
+    background-color:#a18b0f ;
+    color:#ddd;
+}
+.banner-text{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.banner-text  .border{
+background-color: #111;
+color:#fff;
+padding: 20px;
+}
+.banner-text  .border.trans{
+    background-color: transparent;
+}
+.banner-text P{
+    color: white; 
+    align-items: flex-start;
+}
+@media(max-width:568px){
+    .pic1, .pic2, .pic3{
+        background-attachment:scroll;
+    }
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 50%);
+    grid-template-rows: 500px 500px;
+
+}
+.kid1{
+
+    background:#e7e7eb;
+    color:#111;
+    font-weight: bold;
+}
+.kid2{
+    
+    background:#cae6d932;
+    color:#111;
+    font-weight: bold;
+ 
+}.kid3{
+  
+    background:#d6d6f0;
+    color:#111;
+    font-weight: bold;
+}
+.kid4{
+    background:#1c443d;
+    color:#111;
+    font-weight: bold;
+}
+.contact form{
+    transition: all 4s ease-in-out;
+
+}
+.contact .form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: #fff;
+    font-size: 18px;
+
+}
+.contact .form-control input{
+    height: 80px;
+}
+.contact form .submit{
+    background: green;
+    border-color:transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    height: 50px;
+    margin-top: 20px;
+}
+.contact form .submit:hover{
+    background-color: yellowgreen;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.copy{
+    margin-top: 250px;
+    text-align: end;
+    color:white;
+    font-family:cursive; 
+}
+
