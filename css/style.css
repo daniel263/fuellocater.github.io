@@ -45,7 +45,7 @@ transition:5s;
 #check{
     display: none;
 }
-/*@media(max-width:952px){
+@media(max-width:952px){
     .menu .logo img{
         size:30px ;
         padding-left:50px;
@@ -87,7 +87,6 @@ transition:5s;
         left: 0;
     }
 }
-*/
 .pic1, .pic2, .pic3{
     position: relative;
     opacity: 0.9;
