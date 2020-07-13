@@ -1,15 +1,16 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(../images/computer-desk-electronics-indoors-374074.jpg),no-repeat;
+    background: url(../images/jetty-feet-sign-wooden-128299.jpg),no-repeat;
     background-size: cover;
     font-family: "EXO", sans-serif;
+    color:white; 
 }
 .sign-box{
     width:450px;
     height:600px ;
-    background:#102e4e;
-    opacity: .9;
+    background:#b1aeae75;
+    opacity: .8;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -18,6 +19,7 @@ body{
     padding: 70px 30px;
     border-radius: 15px;
     margin-top:20px;
+    font-weight: bold;
 }
 .avatar{
     background: white;
@@ -31,6 +33,7 @@ h1{
     padding: 0 0 20PX;
     text-align: center;
     font-size: 15px;
+
 }
 .sign-box p{
     margin: 0;
@@ -41,7 +44,8 @@ h1{
 .sign-box input{
     width: 100%;
     margin-bottom: 20px;
-    
+    color:white;
+
 }
 .sign-box input[type="text"] , input[type="password"], input[type="email"]{
     border: none;
@@ -49,8 +53,8 @@ h1{
     background: transparent;
     outline: none;
     height: 30px;
-    font-size: 16px;
-    color: grey;
+    font-size: 18px;
+
 }
 .sign-box input[type="submit"]{
     border: none;
@@ -66,9 +70,10 @@ h1{
 }
 .sign-box a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 12px;
-    color:darkgray ;
+    color:#000 ;
+    font-weight: bold;
 }
 .sign-box a:hover{
     color:#066b1f ;

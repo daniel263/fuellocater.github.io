@@ -117,6 +117,9 @@ transition:5s;
     background-color:#f4f4f4 ;
     color:#323233;
 }
+.section-light input[type="submit"]{
+background: green;
+}
 .section-dark{
     background-color:#102e4e ;
     color:#ddd;
@@ -193,7 +196,8 @@ padding: 20px;
     outline: none;
     border-bottom: 1px solid white;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
+    text-align: center;
 
 }
 .contact .form-control input{
@@ -206,7 +210,7 @@ padding: 20px;
     font-size: 20px;
     font-weight: normal;
     letter-spacing: 1px;
-    height: 50px;
+    height: 80px;
     margin-top: 20px;
 }
 .contact form .submit:hover{

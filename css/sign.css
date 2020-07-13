@@ -9,7 +9,7 @@ body{
 .sign-box{
     width:320px;
     height:420px ;
-    background:#102e4e;
+    background:#b1aeae75;
     opacity: .9;
     top: 50%;
     left: 50%;
@@ -67,7 +67,7 @@ h1{
     text-decoration: none;
     font-size: 16px;
     line-height: 20px;
-    color:darkgray ;
+    color:#000;
 }
 .sign-box a:hover{
     color:#066b1f ;
